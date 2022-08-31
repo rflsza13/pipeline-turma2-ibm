@@ -3,3 +3,9 @@ job:
   - echo "oi alunos"
   - echo "da turma 2 IBM"
   - echo "aluno Rafael Souza"
+
+job:
+  script:
+  - echo "oi alunos"
+  - echo "da turma 2 IBM"
+  - echo "aluno Rafael Souza"
