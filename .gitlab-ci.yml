@@ -4,11 +4,14 @@ job:
   - test
 
 build:
+  stage: build
+  script:
 - echo "oi alunos"
 - echo "da turma 2 IBM"
 - echo "aluno Rafael Souza"
 
 test:
+  stage: test
   script:
   - echo "oi alunos"
   - echo "da turma 2 IBM"
