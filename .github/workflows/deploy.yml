@@ -6,6 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps: 
+    - name: dados do diretório
+    run: ls -la
+
     - name: validando pacote java
       run: mvn package -Dmaven.test.skip
 
