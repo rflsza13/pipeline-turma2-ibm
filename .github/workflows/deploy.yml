@@ -6,12 +6,12 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps: 
-    - name: Roda um script shell
-      run: echo "olá git actions"
+    - name: validando pacote java
+      run: mvn package -Dmaven.test.skip
 
   test:
     runs-on: ubuntu-20.04
     needs: build
     steps: 
-    - name: Roda um script shell
-      run: echo "olá git actions rodando test"
+    - name: Roda um teste
+      run: mvn test
