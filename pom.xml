@@ -8,11 +8,11 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.urusianx</groupId>
-	<artifactId>t-gitlab</artifactId>
+	<groupId>com.br.urusianx</groupId>
+	<artifactId>RodandoTeste</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>t-gitlab</name>
-	<description>teste for gitlab</description>
+	<name>RodandoTeste</name>
+	<description>Teste para GitLab</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

@@ -1,13 +1,13 @@
-package com.urusianx.tgitlab;
+package com.br.urusianx.RodandoTeste;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TGitlabApplication {
+public class RodandoTesteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TGitlabApplication.class, args);
+		SpringApplication.run(RodandoTesteApplication.class, args);
 	}
 
 }
